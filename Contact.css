@@ -1,0 +1,129 @@
+body {
+  height: 100%;
+  overflow: visible;
+  vertical-align: middle;
+  justify-content: center;
+  font-family: 'Shanti', sans-serif;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.container-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
+  padding: 2.5em 1.4375em 2.6875em;
+  border-radius: 5px;
+  text-align: center;
+  width: 80%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/web_deployement/static/car/bghead.jpg');
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6.25rem;
+}
+.aligned{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-left: 6.25rem;
+  padding-right: 6.25rem;
+}
+.nm{
+  color: white;
+  text-align: left;
+  text-decoration: underline;
+  text-shadow: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  font-size: 24px;
+  font-weight: bold;
+}
+.in{
+  font-size: 22px;
+  border-radius: 5px;
+}
+h1{
+  text-decoration: underline;
+  font-weight: bold;
+  color: white;
+}
+h4{
+  text-decoration: underline;
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+  padding: 2.25rem;
+}
+.submit{
+  margin-left: 17.5rem;
+  margin-right: 17.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 5px;
+  border: solid white 3px;
+  color: white;
+  background: transparent;
+  font-weight: bold;
+  font-size: 18px;
+}
+.submit:hover{
+  background-color: #13302c;
+  color: white;
+  
+}
+.submit:active{
+  top: 2px;
+}
+/*.custom-btn {
+  color: white;
+  margin-left: 17.5rem;
+  margin-right: 17.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 5px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn {
+  border: none;
+  color: white;
+}
+.btn:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  direction: rtl;
+  z-index: -1;
+  box-shadow:
+   -7px -7px 20px 0px #fff9,
+   -4px -4px 5px 0px #fff9,
+   7px 7px 20px 0px #0002,
+   4px 4px 5px 0px #0001;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background-color: #13302c;
+}
+/*.btn-16:hover:after {
+  left: auto;
+  right: 0;
+  width: 100%;
+}*/
+.btn:active {
+  top: 2px;
+}

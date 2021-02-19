@@ -1,0 +1,25 @@
+{
+  "name": "plant-cure",
+  "version": "1.0.0",
+  "description": "mini-project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0"
+  },
+
+  
+  "repository": {
+    "type": "git",
+    "url": "plantcure"
+  }
+}
