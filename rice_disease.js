@@ -17,7 +17,7 @@ async function rice_model(){
     $(".progress-bar").show();
     console.log("in");
     model=undefined;
-    model = await tf.loadLayersModel("https://github.com/plantcure/plantcure/web_deployement/static/web_models/rice_leaf/model.json");
+    model = await tf.loadLayersModel("web_deployement/static/web_models/rice_leaf/model.json");
     $(".progress-bar").hide();
 
 }
