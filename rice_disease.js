@@ -26,7 +26,7 @@ async function potato_model(){
     modelName='potato';
     $(".progress-bar").show();
     model=undefined;
-    model = await tf.loadLayersModel("http://localhost/web_deployement/static/web_models/potato_model/model.json");
+    model = await tf.loadLayersModel("web_models/potato_model/model.json");
     $(".progress-bar").hide();
 
 }
@@ -35,7 +35,7 @@ async function tomato_model(){
     modelName='tomato';
     $(".progress-bar").show();
     model=undefined;
-    model = await tf.loadLayersModel("http://localhost/web_deployement/static/web_models/tomato_model/model.json");
+    model = await tf.loadLayersModel("web_models/tomato_model/model.json");
     $(".progress-bar").hide();
 
 }
@@ -44,7 +44,7 @@ async function grape_model(){
     modelName='grape';
     $(".progress-bar").show();
     model=undefined;
-    model = await tf.loadLayersModel("http://localhost/web_deployement/static/web_models/grape_model/model.json");
+    model = await tf.loadLayersModel("web_models/grape_model/model.json");
     $(".progress-bar").hide();
 
 }
@@ -53,7 +53,7 @@ async function apple_model(){
     modelName='apple';
     $(".progress-bar").show();
     model=undefined;
-    model = await tf.loadLayersModel("http://localhost/web_deployement/static/web_models/apple_model/model.json");
+    model = await tf.loadLayersModel("web_models/apple_model/model.json");
     $(".progress-bar").hide();
 
 }
@@ -62,7 +62,7 @@ async function peach_model(){
     modelName='peach';
     $(".progress-bar").show();
     model=undefined;
-    model = await tf.loadLayersModel("http://localhost/web_deployement/static/web_models/peach_model/model.json");
+    model = await tf.loadLayersModel("web_models/peach_model/model.json");
     $(".progress-bar").hide();
 
 }
@@ -71,7 +71,7 @@ async function strawberry_model(){
     modelName='strawberry';
     $(".progress-bar").show();
     model=undefined;
-    model = await tf.loadLayersModel("http://localhost/web_deployement/static/web_models/strawberry_model/model.json");
+    model = await tf.loadLayersModel("web_models/strawberry_model/model.json");
     $(".progress-bar").hide();
 
 }
@@ -80,7 +80,7 @@ async function pepper_bell_model(){
     modelName='pepper_bell';
     $(".progress-bar").show();
     model=undefined;
-    model = await tf.loadLayersModel("http://localhost/web_deployement/static/web_models/pepper_bell_model/model.json");
+    model = await tf.loadLayersModel("web_models/pepper_bell_model/model.json");
     $(".progress-bar").hide();
 
 }
@@ -89,7 +89,7 @@ async function cherry_model(){
     modelName='cherry';
     $(".progress-bar").show();
     model=undefined;
-    model = await tf.loadLayersModel("http://localhost/web_deployement/static/web_models/cherry_model/model.json");
+    model = await tf.loadLayersModel("web_models/cherry_model/model.json");
     $(".progress-bar").hide();
 
 }
